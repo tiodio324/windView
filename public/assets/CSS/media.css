@@ -1,0 +1,1849 @@
+/* Header */
+    @media (min-width: 1124px) {
+        .headerContainer {
+            min-height: 70px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: center;
+        }
+        .navLogo {
+            max-width: 200px;
+        }
+        .navbar {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .navbar li {
+            margin-left: 40px;
+        }
+        .navbar a, .btnSignTitle {
+            font-size: 20px;
+        }
+    }
+
+
+
+    @media (min-width: 800px) and (max-width: 1124px) {
+        .headerContainer {
+            min-height: 60px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: center;
+        }
+        .navLogo {
+            max-width: 180px;
+        }
+        .navbar {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .navbar li {
+            margin-left: 35px;
+        }
+        .navbar a, .btnSignTitle {
+            font-size: 18px;
+        }
+    }
+
+
+
+    @media (min-width: 480px) and (max-width: 800px) {
+        .headerContainer {
+            min-height: 40px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: center;
+        }
+        .navLogo {
+            max-width: 130px;
+        }
+        .navbar {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .navbar li {
+            margin-left: 15px;
+        }
+        .navbar a, .btnSignTitle {
+            font-size: 12px;
+        }
+    }
+
+
+
+    @media (min-width: 480px) {
+        .btnOpenMenuContainer, .btnCloseMenuContainer, .emptyDiv {
+            display: none;
+        }
+    }
+
+
+
+    @media (max-width: 480px) {
+        .headerContainer {
+            min-height: 35px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: center;
+        }
+        .navLogo {
+            max-width: 110px;
+        }
+        .emptyDiv {
+            display: block;
+        }
+        .btnSignTitle {
+            font-size: 12px;
+        }
+        .navbar {
+            position: absolute;
+            right: 0;
+            top: 0;
+            text-align: end;
+            background-image: url("../img/backgroundMenu.png");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-color: #F9F6FF;
+            max-width: 0;
+            max-height: 0;
+            transition: 1.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+            overflow: hidden;
+        }
+        .navbar.navbarBtnOpenMenu {
+            min-width: 45%;
+            min-height: 300px;
+        }
+        .navbar li {
+            margin-top: 8px;
+            margin-right: 10%;
+        }
+        .navbar a {
+            font-size: 14px;
+            margin-right: 30px;
+        }
+        .btnOpenMenuContainer, .btnCloseMenuContainer {
+            display: block;
+        }
+        .btnOpenMenu, .btnCloseMenu {
+            padding: 5px;
+        }
+        .btnOpenMenu:active, .btnCloseMenu:active {
+            opacity: 0.7;
+        }
+    }
+
+
+
+/* Footer */
+    @media (min-width: 1124px) {
+        .footerContainer {
+            min-height: 40px;
+        }
+        .footerContainer p {
+            font-size: 14px;
+        }
+        .footerGeneralTitle {
+            padding-top: 35px;
+        }
+        .footerCompanyName {
+            padding-bottom: 30px;
+            margin-top: 10px;
+        }
+        .footerContactInfoContainer {
+            margin-bottom: 0;
+            margin-top: 15px;
+        }
+        .footerContactInfoScheduleContainer {
+            margin-left: 30px;
+        }
+        .footerContactInfoScheduleContainer p {
+            margin: 5px;
+        }
+    }
+
+
+
+    @media (min-width: 800px) and (max-width: 1124px) {
+        .footerContainer {
+            min-height: 40px;
+        }
+        .footerContainer p {
+            font-size: 12px;
+        }
+        .footerGeneralTitle {
+            padding-top: 25px;
+        }
+        .footerCompanyName {
+            padding-bottom: 20px;
+            margin-top: 8px;
+        }
+        .footerContactInfoContainer {
+            margin-bottom: 0;
+            margin-top: 15px;
+        }
+        .footerContactInfoScheduleContainer {
+            margin-left: 30px;
+        }
+        .footerContactInfoScheduleContainer p {
+            margin: 4px;
+        }
+    }
+
+
+
+    @media (min-width: 480px) and (max-width: 800px) {
+        .footerContainer {
+            min-height: 25px;
+        }
+        .footerContainer p {
+            font-size: 8px;
+        }
+        .footerGeneralTitle {
+            padding-top: 15px;
+        }
+        .footerCompanyName {
+            padding-bottom: 10px;
+            margin-top: 6px;
+        }
+        .footerContactInfoContainer {
+            margin-bottom: 0;
+            margin-top: 8px;
+        }
+        .footerContactInfoScheduleContainer {
+            margin-left: 20px;
+        }
+        .footerContactInfoScheduleContainer p {
+            margin: 4px;
+        }
+    }
+
+
+
+    @media (max-width: 480px) {
+        .footerContainer {
+            min-height: 20px;
+        }
+        .footerContainer p {
+            font-size: 6px;
+        }
+        .footerGeneralTitle {
+            padding-top: 10px;
+        }
+        .footerCompanyName {
+            padding-bottom: 8px;
+            margin-top: 5px;
+        }
+        .footerContactInfoContainer {
+            margin-bottom: 0;
+            margin-top: 6px;
+        }
+        .footerContactInfoScheduleContainer {
+            margin-left: 15px;
+        }
+        .footerContactInfoScheduleContainer p {
+            margin: 2px;
+        }
+    }
+
+
+
+/* Main */
+    @media (min-width: 1124px) {
+        /* Home page */
+            /* Latest Product */
+                .latestProductContainer {
+                    margin-left: auto;
+                    margin-right: auto;
+                    max-width: 1170px;
+                    padding-top: 90px;
+                    padding-bottom: 80px;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+                }
+                .latestProductQuote {
+                    font-size: 22px;
+                    margin-bottom: 0;
+                }
+                .latestProductSlogan {
+                    font-size: 36px;
+                    margin-top: 15px;
+                    margin-bottom: 12px;
+                }
+                .latestProductText {
+                    font-size: 18px;
+                    margin-top: 0;
+                    margin-bottom: 30px;
+                }
+                .latestProductBtns {
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                }
+                .latestProductBtnDonwload {
+                    margin-right: 40px;
+                }
+                .latestProductBtnDonwload, .latestProductBtnProducts {
+                    padding: 8px 35px;
+                    font-size: 20px;
+                }
+                .latestProductImgContainer {
+                    display: flex;
+                    align-items: center;
+                }
+                .latestProductImg {
+                    max-width: 500px;
+                }
+            
+            /* Future Plan */
+                .futurePlanContainer {
+                    margin-left: auto;
+                    margin-right: auto;
+                    max-width: 960px;
+                    padding-top: 125px;
+                    padding-bottom: 80px;
+                    display: flex;
+                    flex-direction: column;
+                }
+                .futurePlanTitle {
+                    font-size: 22px;
+                }
+                .futurePlanText {
+                    font-size: 18px;
+                }
+                .futurePlanAdvantagesContainer p:last-child {
+                    margin-bottom: 30px;
+                }
+                .futurePlanSchemeContainer {
+                    display: grid;
+                    grid-template-rows: repeat(3, 1fr);
+                    grid-template-columns: 1fr 150px 1fr;
+                }
+                .futurePlanSchemeContainer p {
+                    font-size: 18px;
+                }
+                .futurePlanSchemeContainer p:nth-child(1) {
+                    grid-row: 1;
+                    grid-column: 1;
+                    margin-right: 35px;
+                    margin-top: 100px;
+                }
+                .futurePlanSchemeContainer p:nth-child(2) {
+                    grid-row: 1;
+                    grid-column: 3;
+                    margin-left: 35px;
+                    margin-top: 100px;
+                }
+                .futurePlanSchemeContainer img {
+                    grid-row: 1 / span 3;
+                    grid-column: 2;
+                    max-width: 150px;
+                }
+                .futurePlanSchemeContainer p:nth-child(4) {
+                    grid-row: 3;
+                    grid-column: 1;
+                    margin-right: 35px;
+                    position: relative;
+                    bottom: 60px;
+                }
+                .futurePlanSchemeContainer p:nth-child(5) {
+                    grid-row: 3;
+                    grid-column: 3;
+                    margin-left: 35px;
+                    position: relative;
+                    bottom: 60px;
+                }
+            
+            /* Help Us */
+                .helpUsContainer {
+                    margin-left: auto;
+                    margin-right: auto;
+                    max-width: 960px;
+                    padding-top: 70px;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+                    align-items: center;
+                }
+                .helpUsInfoContainer {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                }
+                .helpUsContainer p {
+                    font-size: 30px;
+                    margin-top: 0;
+                    margin-bottom: 60px;
+                }
+                .helpUsContainer button {
+                    padding: 12px 55px;
+                    font-size: 20px;
+                }
+                .helpUsContainer img {
+                    max-width: 400px;
+                }
+        
+        /* About page */
+            /* Review */
+                .reviewContainer {
+                    margin-left: auto;
+                    margin-right: auto;
+                    max-width: 1170px;
+                    min-height: 510px;
+                    padding-top: 90px;
+                }
+                .reviewSlogan {
+                    font-size: 36px;
+                    margin-bottom: 20px;
+                    max-width: 30%;
+                }
+                .reviewText {
+                    font-size: 20px;
+                    max-width: 40%;
+                }
+        
+        /* Products page */
+            /* Product */
+                .productBox {
+                    padding-bottom: 60px;
+                }
+                .product1Container, .product2Container {
+                    margin-left: auto;
+                    margin-right: auto;
+                    max-width: 1170px;
+                    background-color: #0A053E;
+                    border-bottom: 2px solid #12A0FF;
+                    padding: 90px 80px 60px 80px;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+                }
+                .product1Container {
+                    margin-bottom: 90px;
+                }
+                .imgSliderContainer {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+                    align-items: center;
+                }
+                .imgSliderArrowPrev, .imgSliderArrowNext {
+                    max-width: 25px;
+                    cursor: pointer;
+                }
+                .imgSliderArrowPrev {
+                    margin-right: 35px;
+                }
+                .imgSliderArrowNext {
+                    margin-left: 35px;
+                }
+                .imgSliderApp {
+                    min-width: 380px;
+                }
+                .productDescriptionContainer {
+                    max-width: 500px;
+                }
+                .productTitle {
+                    font-size: 28px;
+                    margin-bottom: 15px;
+                }
+                .product1Description, .product1PostScriptum, .product2Description {
+                    font-size: 18px;
+                }
+                .product1Description {
+                    margin-bottom: 35px;
+                }
+                .product1PostScriptum, .product2Description {
+                    margin-bottom: 80px;
+                }
+                .productDownloadContainer {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                }
+                .btnProductDownload {
+                    padding: 4px 35px;
+                    font-size: 18px;
+                    margin-bottom: 15px;
+                }
+                .productAppLogo {
+                    max-width: 36px;
+                    margin-left: 12px;
+                }
+                .productDownloadGitHub {
+                    font-size: 16px;
+                }
+                .productDownloadFallback {
+                    margin-top: 12px;
+                    font-size: 14px;
+                }
+                .productDownloadFallback {
+                    text-align: center;
+                }
+        
+        /* Donate page */
+            /* Card Info */
+                .donateContainer {
+                    margin-left: auto;
+                    margin-right: auto;
+                    max-width: 1170px;
+                    min-height: 580px;
+                    padding-top: 290px;
+                }
+                .donateCardNumber {
+                    font-size: 48px;
+                    margin-bottom: 20px;
+                }
+                .donateBankName {
+                    font-size: 32px;
+                }
+
+        /* Signin */
+            /* Error value */
+                .errorValueContainer {
+                    margin-top: 15px;
+                }
+                .errorValue {
+                    font-size: 16px;
+                }
+        
+        /* Login */
+            /* Form */
+                .loginContainer {
+                    margin-left: auto;
+                    margin-right: auto;
+                    max-width: 1170px;
+                    padding: 90px 0;
+                    display: flex;
+                    flex-direction: column;
+                }
+                .loginForm {
+                    display: flex;
+                    flex-direction: column;
+                    align-self: center;
+                    padding: 35px;
+                }
+                .loginNameContainer {
+                    margin-bottom: 30px;
+                }
+                .loginPasswordContainer {
+                    margin-bottom: 40px;
+                }
+                .loginName, .loginPassword {
+                    font-size: 20px;
+                    margin-bottom: 12px;
+                }
+                .loginNameInput, .loginPasswordInput {
+                    font-size: 18px;
+                    padding: 12px 4px;
+                }
+                .btnLogin {
+                    padding: 8px 35px;
+                    font-size: 22px;
+                    margin-bottom: 20px;
+                }
+                .switchToRegister {
+                    font-size: 16px;
+                }
+        
+        /* Register */
+            /* Form */
+                .registerContainer {
+                    margin-left: auto;
+                    margin-right: auto;
+                    max-width: 1170px;
+                    padding: 90px 0;
+                    display: flex;
+                    flex-direction: column;
+                }
+                .registerForm {
+                    display: flex;
+                    flex-direction: column;
+                    align-self: center;
+                    padding: 40px;
+                }
+                .registerNameContainer, .registerPasswordContainer {
+                    margin-bottom: 30px;
+                }
+                .registerConfirmPasswordContainer {
+                    margin-bottom: 25px;
+                }
+                .registerName, .registerPassword {
+                    font-size: 20px;
+                    margin-bottom: 12px;
+                }
+                .registerNameInput, .registerPasswordInput {
+                    font-size: 18px;
+                    padding: 12px 4px;
+                }
+                .registerTosContainer {
+                    margin-bottom: 40px;
+                }
+                .registerTosInput {
+                    margin-right: 8px;
+                    width: 15px;
+                    height: 15px;
+                }
+                .registerTos {
+                    font-size: 14px;
+                }
+                .btnRegister {
+                    padding: 8px 35px;
+                    font-size: 22px;
+                    margin-bottom: 20px;
+                }
+                .switchToLogin {
+                    font-size: 16px;
+                }
+
+        /* Contacts */
+            /* Suggestion Form */
+                .contactsContainer {
+                    margin-left: auto;
+                    margin-right: auto;
+                    max-width: 1170px;
+                    padding: 90px 0;
+                    display: flex;
+                    flex-direction: column;
+                }
+                .contactsFormTitle {
+                    font-size: 32px;
+                    margin-bottom: 35px;
+                }
+                .contactsForm {
+                    display: flex;
+                    flex-direction: column;
+                    align-self: center;
+                    padding: 40px;
+                }
+                .contactsNameContainer, .contactsSurnameContainer, .contactsEmailContainer {
+                    margin-bottom: 30px;
+                }
+                .contactsMessageContainer {
+                    margin-bottom: 40px;
+                }
+                .labelTitle {
+                    font-size: 20px;
+                    margin-bottom: 12px;
+                }
+                .labelInput {
+                    font-size: 18px;
+                    padding: 12px 4px;
+                }
+                .btnSend {
+                    padding: 8px 35px;
+                    font-size: 22px;
+                }
+    }
+
+
+    @media (min-width: 800px) and (max-width: 1124px) {
+        /* Home page */
+            /* Latest Product */
+                .latestProductContainer {
+                    margin-left: auto;
+                    margin-right: auto;
+                    max-width: 800px;
+                    padding-top: 70px;
+                    padding-bottom: 60px;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+                }
+                .latestProductQuote {
+                    font-size: 20px;
+                    margin-bottom: 0;
+                }
+                .latestProductSlogan {
+                    font-size: 28px;
+                    margin-top: 12px;
+                    margin-bottom: 8px;
+                }
+                .latestProductText {
+                    font-size: 16px;
+                    margin-top: 0;
+                    margin-bottom: 20px;
+                }
+                .latestProductBtns {
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                }
+                .latestProductBtnDonwload {
+                    margin-right: 30px;
+                }
+                .latestProductBtnDonwload, .latestProductBtnProducts {
+                    padding: 6px 30px;
+                    font-size: 18px;
+                }
+                .latestProductImgContainer {
+                    display: flex;
+                    align-items: center;
+                }
+                .latestProductImg {
+                    max-width: 400px;
+                }
+            
+            /* Future Plan */
+                .futurePlanContainer {
+                    margin-left: auto;
+                    margin-right: auto;
+                    max-width: 800px;
+                    padding-top: 100px;
+                    padding-bottom: 70px;
+                    display: flex;
+                    flex-direction: column;
+                }
+                .futurePlanTitle {
+                    font-size: 20px;
+                }
+                .futurePlanText {
+                    font-size: 16px;
+                }
+                .futurePlanAdvantagesContainer p:last-child {
+                    margin-bottom: 20px;
+                }
+                .futurePlanSchemeContainer {
+                    display: grid;
+                    grid-template-rows: repeat(3, 1fr);
+                    grid-template-columns: 1fr 150px 1fr;
+                }
+                .futurePlanSchemeContainer p {
+                    font-size: 16px;
+                }
+                .futurePlanSchemeContainer p:nth-child(1) {
+                    grid-row: 1;
+                    grid-column: 1;
+                    margin-right: 25px;
+                    margin-top: 100px;
+                }
+                .futurePlanSchemeContainer p:nth-child(2) {
+                    grid-row: 1;
+                    grid-column: 3;
+                    margin-left: 25px;
+                    margin-top: 100px;
+                }
+                .futurePlanSchemeContainer img {
+                    grid-row: 1 / span 3;
+                    grid-column: 2;
+                    max-width: 150px;
+                }
+                .futurePlanSchemeContainer p:nth-child(4) {
+                    grid-row: 3;
+                    grid-column: 1;
+                    margin-right: 25px;
+                    position: relative;
+                    bottom: 30px;
+                }
+                .futurePlanSchemeContainer p:nth-child(5) {
+                    grid-row: 3;
+                    grid-column: 3;
+                    margin-left: 25px;
+                    position: relative;
+                    bottom: 30px;
+                }
+            
+            /* Help Us */
+                .helpUsContainer {
+                    margin-left: auto;
+                    margin-right: auto;
+                    max-width: 800px;
+                    padding-top: 50px;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+                    align-items: center;
+                }
+                .helpUsInfoContainer {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                }
+                .helpUsContainer p {
+                    font-size: 26px;
+                    margin-top: 0;
+                    margin-bottom: 45px;
+                }
+                .helpUsContainer button {
+                    padding: 10px 50px;
+                    font-size: 18px;
+                }
+                .helpUsContainer img {
+                    max-width: 290px;
+                }
+        
+        /* About page */
+            /* Review */
+                .reviewContainer {
+                    margin-left: auto;
+                    margin-right: auto;
+                    max-width: 800px;
+                    min-height: 380px;
+                    padding-top: 70px;
+                }
+                .reviewSlogan {
+                    font-size: 28px;
+                    margin-bottom: 15px;
+                    max-width: 30%;
+                }
+                .reviewText {
+                    font-size: 16px;
+                    max-width: 40%;
+                }
+        
+        /* Products page */
+            /* Product */
+                .productBox {
+                    padding-bottom: 50px;
+                }
+                .product1Container, .product2Container {
+                    margin-left: auto;
+                    margin-right: auto;
+                    max-width: 800px;
+                    background-color: #0A053E;
+                    border-bottom: 2px solid #12A0FF;
+                    padding: 70px 60px 50px 60px;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+                }
+                .product1Container {
+                    margin-bottom: 70px;
+                }
+                .imgSliderContainer {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+                    align-items: center;
+                }
+                .imgSliderArrowPrev, .imgSliderArrowNext {
+                    max-width: 20px;
+                    cursor: pointer;
+                }
+                .imgSliderArrowPrev {
+                    margin-right: 30px;
+                }
+                .imgSliderArrowNext {
+                    margin-left: 30px;
+                }
+                .imgSliderApp {
+                    max-width: 280px;
+                }
+                .productDescriptionContainer {
+                    max-width: 320px;
+                }
+                .productTitle {
+                    font-size: 24px;
+                    margin-bottom: 12px;
+                }
+                .product1Description, .product1PostScriptum, .product2Description {
+                    font-size: 16px;
+                }
+                .product1Description {
+                    margin-bottom: 25px;
+                }
+                .product1PostScriptum, .product2Description {
+                    margin-bottom: 45px;
+                }
+                .productDownloadContainer {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                }
+                .btnProductDownload {
+                    padding: 4px 30px;
+                    font-size: 16px;
+                    margin-bottom: 12px;
+                }
+                .productAppLogo {
+                    max-width: 28px;
+                    margin-left: 12px;
+                }
+                .productDownloadGitHub {
+                    font-size: 14px;
+                }
+                .productDownloadFallback {
+                    margin-top: 8px;
+                    font-size: 12px;
+                }
+                .productDownloadFallback {
+                    text-align: center;
+                }
+        
+        /* Donate page */
+            /* Card Info */
+                .donateContainer {
+                    margin-left: auto;
+                    margin-right: auto;
+                    max-width: 800px;
+                    min-height: 470px;
+                    padding-top: 240px;
+                }
+                .donateCardNumber {
+                    font-size: 36px;
+                    margin-bottom: 20px;
+                }
+                .donateBankName {
+                    font-size: 28px;
+                }
+
+        /* Signin */
+            /* Error value */
+                .errorValueContainer {
+                    margin-top: 12px;
+                }
+                .errorValue {
+                    font-size: 14px;
+                }
+
+        /* Login */
+            /* Form */
+                .loginContainer {
+                    margin-left: auto;
+                    margin-right: auto;
+                    max-width: 800px;
+                    padding: 70px 0;
+                    display: flex;
+                    flex-direction: column;
+                }
+                .loginForm {
+                    display: flex;
+                    flex-direction: column;
+                    align-self: center;
+                    padding: 25px;
+                }
+                .loginNameContainer {
+                    margin-bottom: 25px;
+                }
+                .loginPasswordContainer {
+                    margin-bottom: 35px;
+                }
+                .loginName, .loginPassword {
+                    font-size: 18px;
+                    margin-bottom: 12px;
+                }
+                .loginNameInput, .loginPasswordInput {
+                    font-size: 16px;
+                    padding: 10px 4px;
+                }
+                .btnLogin {
+                    padding: 6px 30px;
+                    font-size: 20px;
+                    margin-bottom: 15px;
+                }
+                .switchToRegister {
+                    font-size: 14px;
+                }
+        
+        /* Register */
+            /* Form */
+                .registerContainer {
+                    margin-left: auto;
+                    margin-right: auto;
+                    max-width: 800px;
+                    padding: 70px 0;
+                    display: flex;
+                    flex-direction: column;
+                }
+                .registerForm {
+                    display: flex;
+                    flex-direction: column;
+                    align-self: center;
+                    padding: 30px;
+                }
+                .registerNameContainer, .registerPasswordContainer {
+                    margin-bottom: 25px;
+                }
+                .registerConfirmPasswordContainer {
+                    margin-bottom: 20px;
+                }
+                .registerName, .registerPassword {
+                    font-size: 18px;
+                    margin-bottom: 12px;
+                }
+                .registerNameInput, .registerPasswordInput {
+                    font-size: 16px;
+                    padding: 10px 4px;
+                }
+                .registerTosContainer {
+                    margin-bottom: 35px;
+                }
+                .registerTosInput {
+                    margin-right: 8px;
+                    width: 12px;
+                    height: 12px;
+                }
+                .registerTos {
+                    font-size: 12px;
+                }
+                .btnRegister {
+                    padding: 6px 30px;
+                    font-size: 20px;
+                    margin-bottom: 15px;
+                }
+                .switchToLogin {
+                    font-size: 14px;
+                }
+        
+        /* Contacts */
+            /* Suggestion Form */
+                .contactsContainer {
+                    margin-left: auto;
+                    margin-right: auto;
+                    max-width: 800px;
+                    padding: 70px 0;
+                    display: flex;
+                    flex-direction: column;
+                }
+                .contactsFormTitle {
+                    font-size: 28px;
+                    margin-bottom: 30px;
+                }
+                .contactsForm {
+                    display: flex;
+                    flex-direction: column;
+                    align-self: center;
+                    padding: 30px;
+                }
+                .contactsNameContainer, .contactsSurnameContainer, .contactsEmailContainer {
+                    margin-bottom: 25px;
+                }
+                .contactsMessageContainer {
+                    margin-bottom: 35px;
+                }
+                .labelTitle {
+                    font-size: 18px;
+                    margin-bottom: 12px;
+                }
+                .labelInput {
+                    font-size: 16px;
+                    padding: 10px 4px;
+                }
+                .btnSend {
+                    padding: 6px 30px;
+                    font-size: 20px;
+                }
+    }
+
+
+    @media (min-width: 480px) and (max-width: 800px) {
+        /* Home page */
+            /* Latest Product */
+                .latestProductContainer {
+                    margin-left: auto;
+                    margin-right: auto;
+                    max-width: 480px;
+                    padding-top: 50px;
+                    padding-bottom: 40px;
+                    display: flex;
+                    flex-direction: column;
+                }
+                .latestProductQuote, .latestProductSlogan, .latestProductText {
+                    text-align: center;
+                }
+                .latestProductQuote {
+                    font-size: 16px;
+                    margin-bottom: 0;
+                }
+                .latestProductSlogan {
+                    font-size: 24px;
+                    margin-top: 8px;
+                    margin-bottom: 6px;
+                }
+                .latestProductText {
+                    font-size: 14px;
+                    margin-top: 0;
+                    margin-bottom: 15px;
+                }
+                .latestProductBtns {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: center;
+                    align-items: center;
+                    margin-bottom: 25px;
+                }
+                .latestProductBtnDonwload {
+                    margin-right: 20px;
+                }
+                .latestProductBtnDonwload, .latestProductBtnProducts {
+                    padding: 4px 20px;
+                    font-size: 16px;
+                }
+                .latestProductImgContainer {
+                    display: flex;
+                    align-self: center;
+                    align-items: center;
+                }
+                .latestProductImg {
+                    max-width: 100%;
+                }
+            
+            /* Future Plan */
+                .futurePlanContainer {
+                    margin-left: auto;
+                    margin-right: auto;
+                    max-width: 480px;
+                    padding-top: 60px;
+                    padding-bottom: 40px;
+                    display: flex;
+                    flex-direction: column;
+                }
+                .futurePlanTitle {
+                    font-size: 16px;
+                }
+                .futurePlanText {
+                    font-size: 14px;
+                }
+                .futurePlanAdvantagesContainer p:last-child {
+                    margin-bottom: 15px;
+                }
+                .futurePlanSchemeContainer {
+                    display: grid;
+                    grid-template-rows: repeat(3, 1fr);
+                    grid-template-columns: 1fr 120px 1fr;
+                }
+                .futurePlanSchemeContainer p {
+                    font-size: 10px;
+                }
+                .futurePlanSchemeContainer p:nth-child(1) {
+                    grid-row: 1;
+                    grid-column: 1;
+                    margin-right: 20px;
+                    margin-top: 80px;
+                }
+                .futurePlanSchemeContainer p:nth-child(2) {
+                    grid-row: 1;
+                    grid-column: 3;
+                    margin-left: 20px;
+                    margin-top: 80px;
+                }
+                .futurePlanSchemeContainer img {
+                    grid-row: 1 / span 3;
+                    grid-column: 2;
+                    max-width: 120px;
+                }
+                .futurePlanSchemeContainer p:nth-child(4) {
+                    grid-row: 3;
+                    grid-column: 1;
+                    margin-right: 20px;
+                    position: relative;
+                    bottom: 35px;
+                }
+                .futurePlanSchemeContainer p:nth-child(5) {
+                    grid-row: 3;
+                    grid-column: 3;
+                    margin-left: 20px;
+                    position: relative;
+                    bottom: 35px;
+                }
+            
+            /* Help Us */
+                .helpUsContainer {
+                    margin-left: auto;
+                    margin-right: auto;
+                    max-width: 480px;
+                    padding-top: 30px;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+                    align-items: center;
+                }
+                .helpUsInfoContainer {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                }
+                .helpUsContainer p {
+                    font-size: 22px;
+                    margin-top: 0;
+                    margin-bottom: 25px;
+                }
+                .helpUsContainer button {
+                    padding: 8px 40px;
+                    font-size: 16px;
+                }
+                .helpUsContainer img {
+                    max-width: 220px;
+                }
+        
+        /* About page */
+            /* Review */
+                .reviewContainer {
+                    margin-left: auto;
+                    margin-right: auto;
+                    max-width: 480px;
+                    min-height: 270px;
+                    padding-top: 50px;
+                }
+                .reviewSlogan {
+                    font-size: 24px;
+                    margin-bottom: 15px;
+                    max-width: 45%;
+                }
+                .reviewText {
+                    font-size: 14px;
+                    max-width: 50%;
+                }
+        
+        /* Products page */
+            /* Product */
+                .productBox {
+                    padding-bottom: 40px;
+                }
+                .product1Container, .product2Container {
+                    margin-left: auto;
+                    margin-right: auto;
+                    max-width: 480px;
+                    background-color: #0A053E;
+                    border-bottom: 2px solid #12A0FF;
+                    padding: 40px 20px 30px 20px;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+                }
+                .product1Container {
+                    margin-bottom: 50px;
+                }
+                .imgSliderContainer {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+                    align-items: center;
+                }
+                .imgSliderArrowPrev, .imgSliderArrowNext {
+                    max-width: 10px;
+                    cursor: pointer;
+                }
+                .imgSliderArrowPrev {
+                    margin-right: 10px;
+                }
+                .imgSliderArrowNext {
+                    margin-left: 10px;
+                }
+                .imgSliderApp {
+                    max-width: 170px;
+                }
+                .productDescriptionContainer {
+                    margin-left: 5%;
+                }
+                .productTitle {
+                    font-size: 18px;
+                    margin-bottom: 8px;
+                }
+                .product1Description, .product1PostScriptum, .product2Description {
+                    font-size: 12px;
+                }
+                .product1Description {
+                    margin-bottom: 12px;
+                }
+                .product1PostScriptum, .product2Description {
+                    margin-bottom: 25px;
+                }
+                .productDownloadContainer {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                }
+                .btnProductDownload {
+                    padding: 3px 15px;
+                    font-size: 12px;
+                    margin-bottom: 8px;
+                }
+                .productAppLogo {
+                    max-width: 24px;
+                    margin-left: 12px;
+                }
+                .productDownloadGitHub {
+                    font-size: 12px;
+                }
+                .productDownloadFallback {
+                    margin-top: 8px;
+                    font-size: 10px;
+                }
+                .productDownloadFallback {
+                    text-align: center;
+                }
+        
+        /* Donate page */
+            /* Card Info */
+                .donateContainer {
+                    margin-left: auto;
+                    margin-right: auto;
+                    max-width: 480px;
+                    min-height: 280px;
+                    padding-top: 150px;
+                }
+                .donateCardNumber {
+                    font-size: 26px;
+                    margin-bottom: 15px
+                }
+                .donateBankName {
+                    font-size: 20px;
+                }
+        
+        /* Signin */
+            /* Error value */
+                .errorValueContainer {
+                    margin-top: 8px;
+                }
+                .errorValue {
+                    font-size: 12px;
+                }
+        
+        /* Login */
+            /* Form */
+                .loginContainer {
+                    margin-left: auto;
+                    margin-right: auto;
+                    max-width: 480px;
+                    padding: 50px 0;
+                    display: flex;
+                    flex-direction: column;
+                }
+                .loginForm {
+                    display: flex;
+                    flex-direction: column;
+                    align-self: center;
+                    padding: 20px;
+                }
+                .loginNameContainer {
+                    margin-bottom: 15px;
+                }
+                .loginPasswordContainer {
+                    margin-bottom: 25px;
+                }
+                .loginName, .loginPassword {
+                    font-size: 16px;
+                    margin-bottom: 8px;
+                }
+                .loginNameInput, .loginPasswordInput {
+                    font-size: 14px;
+                    padding: 8px 4px;
+                }
+                .btnLogin {
+                    padding: 4px 20px;
+                    font-size: 18px;
+                    margin-bottom: 12px;
+                }
+                .switchToRegister {
+                    font-size: 12px;
+                }
+        
+        /* Register */
+            /* Form */
+                .registerContainer {
+                    margin-left: auto;
+                    margin-right: auto;
+                    max-width: 480px;
+                    padding: 50px 0;
+                    display: flex;
+                    flex-direction: column;
+                }
+                .registerForm {
+                    display: flex;
+                    flex-direction: column;
+                    align-self: center;
+                    padding: 20px;
+                }
+                .registerNameContainer, .registerPasswordContainer {
+                    margin-bottom: 15px;
+                }
+                .registerConfirmPasswordContainer {
+                    margin-bottom: 12px;
+                }
+                .registerName, .registerPassword {
+                    font-size: 16px;
+                    margin-bottom: 8px;
+                }
+                .registerNameInput, .registerPasswordInput {
+                    font-size: 14px;
+                    padding: 8px 4px;
+                }
+                .registerTosContainer {
+                    margin-bottom: 25px;
+                }
+                .registerTosInput {
+                    margin-right: 6px;
+                    width: 12px;
+                    height: 12px;
+                }
+                .registerTos {
+                    font-size: 10px;
+                }
+                .btnRegister {
+                    padding: 4px 20px;
+                    font-size: 18px;
+                    margin-bottom: 12px;
+                }
+                .switchToLogin {
+                    font-size: 12px;
+                }
+        
+        /* Contacts */
+            /* Suggestion Form */
+                .contactsContainer {
+                    margin-left: auto;
+                    margin-right: auto;
+                    max-width: 480px;
+                    padding: 50px 0;
+                    display: flex;
+                    flex-direction: column;
+                }
+                .contactsFormTitle {
+                    font-size: 22px;
+                    margin-bottom: 15px;
+                }
+                .contactsForm {
+                    display: flex;
+                    flex-direction: column;
+                    align-self: center;
+                    padding: 20px;
+                }
+                .contactsNameContainer, .contactsSurnameContainer, .contactsEmailContainer {
+                    margin-bottom: 15px;
+                }
+                .contactsMessageContainer {
+                    margin-bottom: 25px;
+                }
+                .labelTitle {
+                    font-size: 16px;
+                    margin-bottom: 8px;
+                }
+                .labelInput {
+                    font-size: 14px;
+                    padding: 8px 4px;
+                }
+                .btnSend {
+                    padding: 4px 20px;
+                    font-size: 18px;
+                }
+    }
+
+
+    @media (min-width:480px) {
+        .productDescriptionContainerPhoneVersion {
+            display: none;
+        }
+    }
+
+
+    @media (max-width: 480px) {
+        /* Home page */
+            /* Latest Product */
+                .latestProductContainer {
+                    margin-left: auto;
+                    margin-right: auto;
+                    max-width: 300px;
+                    padding-top: 40px;
+                    padding-bottom: 30px;
+                    display: flex;
+                    flex-direction: column;
+                }
+                .latestProductQuote, .latestProductSlogan, .latestProductText {
+                    text-align: center;
+                }
+                .latestProductQuote {
+                    font-size: 12px;
+                    margin-bottom: 0;
+                }
+                .latestProductSlogan {
+                    font-size: 18px;
+                    margin-top: 6px;
+                    margin-bottom: 4px;
+                }
+                .latestProductText {
+                    font-size: 10px;
+                    margin-top: 0;
+                    margin-bottom: 10px;
+                }
+                .latestProductBtns {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: center;
+                    align-items: center;
+                    margin-bottom: 15px;
+                }
+                .latestProductBtnDonwload {
+                    margin-right: 15px;
+                }
+                .latestProductBtnDonwload, .latestProductBtnProducts {
+                    padding: 4px 10px;
+                    font-size: 12px;
+                }
+                .latestProductImgContainer {
+                    display: flex;
+                    align-self: center;
+                    align-items: center;
+                }
+                .latestProductImg {
+                    max-width: 100%;
+                }
+            
+            /* Future Plan */
+                .futurePlanContainer {
+                    margin-left: auto;
+                    margin-right: auto;
+                    max-width: 300px;
+                    padding-top: 30px;
+                    padding-bottom: 20px;
+                    display: flex;
+                    flex-direction: column;
+                }
+                .futurePlanTitle {
+                    font-size: 12px;
+                }
+                .futurePlanText {
+                    font-size: 10px;
+                }
+                .futurePlanAdvantagesContainer p:last-child {
+                    margin-bottom: 12px;
+                }
+                .futurePlanSchemeContainer {
+                    display: grid;
+                    grid-template-rows: repeat(3, 1fr);
+                    grid-template-columns: 1fr 90px 1fr;
+                }
+                .futurePlanSchemeContainer p {
+                    font-size: 8px;
+                }
+                .futurePlanSchemeContainer p:nth-child(1) {
+                    grid-row: 1;
+                    grid-column: 1;
+                    margin-right: 15px;
+                    margin-top: 50px;
+                }
+                .futurePlanSchemeContainer p:nth-child(2) {
+                    grid-row: 1;
+                    grid-column: 3;
+                    margin-left: 15px;
+                    margin-top: 50px;
+                }
+                .futurePlanSchemeContainer img {
+                    grid-row: 1 / span 3;
+                    grid-column: 2;
+                    max-width: 90px;
+                }
+                .futurePlanSchemeContainer p:nth-child(4) {
+                    grid-row: 3;
+                    grid-column: 1;
+                    margin-right: 15px;
+                    position: relative;
+                    bottom: 70px;
+                }
+                .futurePlanSchemeContainer p:nth-child(5) {
+                    grid-row: 3;
+                    grid-column: 3;
+                    margin-left: 15px;
+                    position: relative;
+                    bottom: 65px;
+                }
+            
+            /* Help Us */
+                .helpUsContainer {
+                    margin-left: auto;
+                    margin-right: auto;
+                    max-width: 300px;
+                    padding-top: 15px;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+                    align-items: center;
+                }
+                .helpUsInfoContainer {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                }
+                .helpUsContainer p {
+                    font-size: 16px;
+                    margin-top: 0;
+                    margin-bottom: 15px;
+                }
+                .helpUsContainer button {
+                    padding: 4px 20px;
+                    font-size: 12px;
+                }
+                .helpUsContainer img {
+                    max-width: 150px;
+                }
+        
+        /* About page */
+            /* Review */
+                .reviewContainer {
+                    margin-left: auto;
+                    margin-right: auto;
+                    max-width: 300px;
+                    min-height: 180px;
+                    padding-top: 35px;
+                }
+                .reviewSlogan {
+                    font-size: 18px;
+                    margin-bottom: 10px;
+                    max-width: 45%;
+                }
+                .reviewText {
+                    font-size: 10px;
+                    max-width: 50%;
+                }
+        
+        /* Products page */
+            /* Product */
+                .productBox {
+                    padding-bottom: 20px;
+                }
+                .product1Container, .product2Container {
+                    margin-left: auto;
+                    margin-right: auto;
+                    max-width: 300px;
+                    background-color: #0A053E;
+                    border-bottom: 2px solid #12A0FF;
+                    padding: 40px 15px 40px 15px;
+                    display: flex;
+                    flex-direction: column;
+                }
+                .product1Container {
+                    margin-bottom: 30px;
+                }
+                .imgSliderContainer {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-evenly;
+                    align-items: center;
+                }
+                .imgSliderArrowPrev, .imgSliderArrowNext {
+                    max-width: 10px;
+                    cursor: pointer;
+                }
+                .imgSliderArrowPrev {
+                    padding: 5px;
+                }
+                .imgSliderArrowNext {
+                    padding: 5px;
+                }
+                .imgSliderApp {
+                    max-width: 130px;
+                }
+                .productDescriptionContainerPhoneVersion {
+                    display: block;
+                    margin-bottom: 20px;
+                }
+                .productDescriptionContainer {
+                    margin-top: 20px;
+                }
+                .productTitle {
+                    display: none;
+                }
+                .productTitlePhoneVersion {
+                    font-size: 16px;
+                    margin-top: 0;
+                    margin-bottom: 6px;
+                }
+                .product1DescriptionPhoneVersion, .product1PostScriptum, .product2DescriptionPhoneVersion {
+                    font-size: 10px;
+                }
+                .productTitlePhoneVersion, .product1DescriptionPhoneVersion, .product2DescriptionPhoneVersion {
+                    margin-left: auto;
+                    margin-right: auto;
+                    max-width: 260px;
+                    text-align: center;
+                }
+                .product1DescriptionPhoneVersion, .product2DescriptionPhoneVersion {
+                    margin-bottom: 0;
+                }
+                .product1Description, .product2Description {
+                    display: none;
+                }
+                .product1PostScriptum, .product2Description {
+                    margin-bottom: 15px;
+                }
+                .productDownloadContainer {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                }
+                .btnProductDownload {
+                    padding: 2px 10px;
+                    font-size: 10px;
+                    margin-bottom: 10px;
+                }
+                .productAppLogo {
+                    max-width: 18px;
+                    margin-left: 8px;
+                }
+                .productDownloadGitHub {
+                    font-size: 8px;
+                }
+                .productDownloadFallback {
+                    margin-top: 8px;
+                    font-size: 8px;
+                }
+                .productDownloadFallback {
+                    text-align: center;
+                }
+        
+        /* Donate page */
+            /* Card Info */
+                .donateContainer {
+                    margin-left: auto;
+                    margin-right: auto;
+                    max-width: 300px;
+                    min-height: 150px;
+                    padding-top: 70px;
+                }
+                .donateCardNumber {
+                    font-size: 20px;
+                    max-width: 110px;
+                    margin-bottom: 12px
+                }
+                .donateBankName {
+                    font-size: 16px;
+                }
+        
+        /* Signin */
+            /* Error value */
+                .errorValueContainer {
+                    margin-top: 6px;
+                }
+                .errorValue {
+                    font-size: 8px;
+                }
+        
+        /* Login */
+            /* Form */
+                .loginContainer {
+                    margin-left: auto;
+                    margin-right: auto;
+                    max-width: 300px;
+                    padding: 35px 0;
+                    display: flex;
+                    flex-direction: column;
+                }
+                .loginForm {
+                    display: flex;
+                    flex-direction: column;
+                    align-self: center;
+                    padding: 15px;
+                }
+                .loginNameContainer {
+                    margin-bottom: 12px;
+                }
+                .loginPasswordContainer {
+                    margin-bottom: 15px;
+                }
+                .loginName, .loginPassword {
+                    font-size: 14px;
+                    margin-bottom: 6px;
+                }
+                .loginNameInput, .loginPasswordInput {
+                    font-size: 10px;
+                    padding: 5px 4px;
+                }
+                .btnLogin {
+                    padding: 3px 10px;
+                    font-size: 16px;
+                    margin-bottom: 8px;
+                }
+                .switchToRegister {
+                    font-size: 10px;
+                }
+        
+        /* Register */
+            /* Form */
+                .registerContainer {
+                    margin-left: auto;
+                    margin-right: auto;
+                    max-width: 300px;
+                    padding: 35px 0;
+                    display: flex;
+                    flex-direction: column;
+                }
+                .registerForm {
+                    display: flex;
+                    flex-direction: column;
+                    align-self: center;
+                    padding: 15px;
+                }
+                .registerNameContainer, .registerPasswordContainer {
+                    margin-bottom: 12px;
+                }
+                .registerConfirmPasswordContainer {
+                    margin-bottom: 8px;
+                }
+                .registerName, .registerPassword {
+                    font-size: 14px;
+                    margin-bottom: 6px;
+                }
+                .registerNameInput, .registerPasswordInput {
+                    font-size: 10px;
+                    padding: 5px 4px;
+                }
+                .registerTosContainer {
+                    margin-bottom: 15px;
+                }
+                .registerTosInput {
+                    margin-right: 4px;
+                    width: 8px;
+                    height: 8px;
+                }
+                .registerTos {
+                    font-size: 8px;
+                }
+                .btnRegister {
+                    padding: 3px 10px;
+                    font-size: 16px;
+                    margin-bottom: 8px;
+                }
+                .switchToLogin {
+                    font-size: 10px;
+                }
+        
+        /* Contacts */
+            /* Suggestion Form */
+                .contactsContainer {
+                    margin-left: auto;
+                    margin-right: auto;
+                    max-width: 300px;
+                    padding: 35px 0;
+                    display: flex;
+                    flex-direction: column;
+                }
+                .contactsFormTitle {
+                    font-size: 18px;
+                    margin-bottom: 12px;
+                }
+                .contactsForm {
+                    display: flex;
+                    flex-direction: column;
+                    align-self: center;
+                    padding: 15px;
+                }
+                .contactsNameContainer, .contactsSurnameContainer, .contactsEmailContainer {
+                    margin-bottom: 12px;
+                }
+                .contactsMessageContainer {
+                    margin-bottom: 15px;
+                }
+                .labelTitle {
+                    font-size: 14px;
+                    margin-bottom: 6px;
+                }
+                .labelInput {
+                    font-size: 10px;
+                    padding: 5px 4px;
+                }
+                .btnSend {
+                    padding: 3px 10px;
+                    font-size: 16px;
+                }
+    }

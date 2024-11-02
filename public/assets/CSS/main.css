@@ -1,0 +1,437 @@
+/* Fonts */
+    @font-face {
+        font-family: SourceSerifPro-Semibold;
+        src: url("fonts/sourceserifpro/SourceSerifPro-Semibold.ttf");
+        font-family: SourceSerifPro-Bold;
+        src: url("fonts/sourceserifpro/SourceSerifPro-Bold.ttf");
+        font-family: Roboto-Bold;
+        src: url("fonts/roboto/Roboto-Bold.ttf");
+        font-family: Roboto-Medium;
+        src: url("fonts/roboto/Roboto-Medium.ttf");
+        font-family: Roboto-Regular;
+        src: url("fonts/roboto/Roboto-Regular.ttf");
+        font-family: AnonymousPro-Bold;
+        src: url("fonts/anonymouspro/AnonymousPro-Bold.ttf");
+    }
+
+
+.body {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Header */
+    .headerContainer {
+        /* background-color: #fafafa; Because logo_background #fff*/
+        box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.25);
+    }
+    .navbar li {
+        list-style-type: none;
+        margin-left: 0;
+    }
+    .navbar a {
+        text-decoration: none;
+        color: #0c0c0c;
+        font-family: SourceSerifPro-Semibold, sans-serif;
+    }
+    .btnSignTitle {
+        text-decoration: none;
+        color: #0c0c0c;
+        font-family: SourceSerifPro-Bold, sans-serif;
+    }
+    .navbar a:hover, .btnSignTitle:hover {
+        text-decoration: underline;
+        text-decoration-color: #E2762E;
+    }
+    .navbar a:active, .btnSignTitle:active {
+        color: #E2762E;
+    }
+    .btnOpenMenu, .btnCloseMenu {
+        cursor: pointer;
+    }
+
+
+/* Footer */
+    .footerContainer {
+        clear: both;
+        background-color: #031126;
+    }
+    .footerContainer p {
+        color: #f1f1f1;
+        font-family: Roboto-Regular, sans-serif;
+    }
+    .footerContactsContainer {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .footerGeneralTitle, .footerCompanyName {
+        font-family: Roboto-Bold, sans-serif;
+    }
+    .footerGeneralTitle {
+        margin-top: 0;
+    }
+    .footerCompanyName {
+        text-align: center;
+        margin-bottom: 0;
+    }
+    .footerContactInfoContainer {
+        display: flex;
+        flex-direction: row;
+    }
+    .footerContactInfoContainer > p {
+        margin: 5px;
+    }
+    .footerContactInfoScheduleContainer {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+/* Home */
+    /* Latest Product */
+        .latestProductBox {
+            background: linear-gradient(to top right, #F9F6FF 10%, #BDA8E5 100%);
+        }
+        .latestProductQuote, .latestProductSlogan, .latestProductText {
+            color: #0c0c0c;
+        }
+        .latestProductQuote {
+            font-family: SourceSerifPro-Semibold, sans-serif;
+            margin-top: 0;
+        }
+        .latestProductSlogan {
+            font-family: AnonymousPro-Bold, sans-serif;
+        }
+        .latestProductText {
+            font-family: Roboto-Regular, sans-serif;
+        }
+        .latestProductBtnDonwload {
+            background-color: #E2762E;
+            color: #f1f1f1;
+            border: none;
+            border-radius: 12px;
+            cursor: pointer;
+            font-family: Roboto-Medium, sans-serif;
+        }
+        .latestProductBtnDonwload:hover {
+            opacity: 0.85;
+        }
+        .latestProductBtnProducts {
+            background-color: transparent;
+            color: #0c0c0c;
+            border-width: 2;
+            border-color: #E2762E;
+            border-radius: 12px;
+            cursor: pointer;
+            font-family: Roboto-Medium, sans-serif;
+            transition: background-color 0.3s, color 0.3s;
+        }
+        .latestProductBtnProducts:hover {
+            background-color: #efb137;
+            color: #f1f1f1;
+        }
+        .latestProductBtnDonwload:active, .latestProductBtnProducts:active {
+            opacity: 0.7;
+        }
+        .latestProductImg {
+            box-shadow: 0 4px 4px rgb(3, 17, 38, 0.25);
+            cursor: pointer;
+        }
+    
+    /* Future Plan */
+        .futurePlanBox {
+            background-color: #F9F6FF;
+        }
+        .futurePlanContainer p {
+            color: #0c0c0c;
+        }
+        .futurePlanAdvantagesContainer {
+            text-align: center;
+        }
+        .futurePlanTitle {
+            margin-top: 0;
+            font-family: SourceSerifPro-Semibold, sans-serif;
+        }
+        .futurePlanText, .futurePlanSchemeContainer p {
+            font-family: Roboto-Regular, sans-serif;
+        }
+    
+    /* Help Us */
+        .helpUsBox {
+            background-color: #F8E7CD;
+        }
+        .helpUsContainer p {
+            color: #0c0c0c;
+            font-family: SourceSerifPro-Semibold, sans-serif;
+        }
+        .helpUsContainer button {
+            background-color: #E2762E;
+            color: #f1f1f1;
+            border: none;
+            border-radius: 12px;
+            cursor: pointer;
+            font-family: Roboto-Regular, sans-serif;
+        }
+        .helpUsContainer button:hover {
+            opacity: 0.85;
+        }
+        .helpUsContainer button:active {
+            opacity: 0.7;
+        }
+    
+    /* About */
+        /* Review */
+            .reviewBox {
+                background-image: url("../img/aboutCompanyReview.png");
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+            .reviewContainer p {
+                color: #0c0c0c;
+            }
+            .reviewSlogan {
+                font-family: AnonymousPro-Bold, sans-serif;
+            }
+            .reviewText {
+                font-family: Roboto-Regular, sans-serif;
+                margin-bottom: 0;
+            }
+    
+    /* Products */
+        /* Product */
+            .productBox {
+                background: linear-gradient(to bottom, #0A053E 0%, #1E1768 100%);
+            }
+            .imgSliderArrowPrev:hover, .imgSliderApp:hover, .imgSliderArrowNext:hover, .btnProductDownload:hover, .productDownloadGitHub:hover {
+                opacity: 0.85;
+            }
+            .imgSliderArrowPrev:active, .imgSliderApp:active, .imgSliderArrowNext:active, .btnProductDownload:active, .productDownloadGitHub:active {
+                opacity: 0.7;
+            }
+            .imgSliderApp {
+                cursor: pointer;
+            }
+            .productBox p:not(.productDownloadFallback), .productDownloadGitHub {
+                color: #f1f1f1;
+            }
+            .productTitle {
+                margin-top: 0;
+                font-family: AnonymousPro-Bold, sans-serif;
+            }
+            .product1Description, .product1PostScriptum, .product2Description {
+                font-family: Roboto-Regular, sans-serif;
+            }
+            .btnProductDownload {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: center;
+                background-color: #E2762E;
+                color: #f1f1f1;
+                border: none;
+                border-radius: 12px;
+                cursor: pointer;
+                font-family: Roboto-Medium, sans-serif;
+            }
+            .productDownloadGitHub {
+                text-decoration-color: #E2762E;
+                font-family: SourceSerifPro-Semibold, sans-serif;
+            }
+            .productDownloadFallback {
+                display: none;
+                color: #B3261E;
+                font-family: Roboto-Regular, sans-serif;
+            }
+    
+    /* Donate */
+        /* Card Info */
+            .donateBox {
+                background-image: url("../img/backgroundDonate.png");
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+            .donateContainer p {
+                color: #f1f1f1;
+            }
+            .donateCardNumber {
+                margin-top: 0;
+                font-family: AnonymousPro-Bold, sans-serif;
+            }
+            .donateCardNumberSpan {
+                color: #E2762E;
+            }
+            .donateBankName {
+                font-family: Roboto-Regular, sans-serif;
+            }
+    
+    /* Signin */
+        /* Error value */
+            .errorValue {
+                margin: 0;
+                color: #B3261E;
+                font-family: Roboto-Regular, sans-serif;
+            }
+    
+    /* Login */
+        /* Form */
+            .loginName, .loginPassword, .switchToRegister {
+                color: #0c0c0c;
+                font-family: SourceSerifPro-Semibold, sans-serif;
+            }
+            .loginName, .loginPassword {
+                margin-top: 0;
+            }
+            .loginNameInput, .loginPasswordInput, .loginForm {
+                border: 1px solid #D9D9D9;
+                border-radius: 8px;
+            }
+            .loginNameInput, .loginPasswordInput {
+                color: #0c0c0c;
+                font-family: Roboto-Regular, sans-serif;
+            }
+            .loginNameInput:focus, .loginPasswordInput:focus {
+                border: none;
+                outline: 1px solid #E2762E;
+            }
+            .switchToRegister {
+                text-decoration-color: #E2762E;
+                font-family: Roboto-Regular, sans-serif;
+            }
+            .btnLogin {
+                background-color: #E2762E;
+                color: #f1f1f1;
+                border: none;
+                border-radius: 12px;
+                cursor: pointer;
+                font-family: Roboto-Medium, sans-serif;
+            }
+            .btnLogin:hover, .switchToRegister:hover {
+                opacity: 0.85;
+            }
+            .btnLogin:active, .switchToRegister:active {
+                opacity: 0.7;
+            }
+    
+    /* Register */
+        /* Form */
+            .registerName, .registerPassword, .registerTos, .switchToLogin {
+                color: #0c0c0c;
+                font-family: SourceSerifPro-Semibold, sans-serif;
+            }
+            .registerName, .registerPassword, .registerTos {
+                margin-top: 0;
+            }
+            .registerNameInput, .registerPasswordInput, .registerForm {
+                border: 1px solid #D9D9D9;
+                border-radius: 8px;
+            }
+            .registerNameInput, .registerPasswordInput {
+                color: #0c0c0c;
+                font-family: Roboto-Regular, sans-serif;
+            }
+            .registerNameInput:focus, .registerPasswordInput:focus {
+                border: none;
+                outline: 1px solid #E2762E;
+            }
+            .registerTosInput {
+                accent-color: #E2762E;
+                cursor: pointer;
+            }
+            .registerTos {
+                display: inline-block;
+                margin-bottom: 0;
+                text-decoration-color: #E2762E;
+                font-family: Roboto-Regular, sans-serif;
+            }
+            .switchToLogin {
+                text-decoration-color: #E2762E;
+                font-family: Roboto-Regular, sans-serif;
+            }
+            .btnRegister {
+                background-color: #E2762E;
+                color: #f1f1f1;
+                border: none;
+                border-radius: 12px;
+                cursor: pointer;
+                font-family: Roboto-Medium, sans-serif;
+            }
+            .registerTosInput:hover, .registerTos:hover, .btnRegister:hover, .switchToLogin:hover {
+                opacity: 0.85;
+            }
+            .registerTosInput:active, .registerTos:active, .btnRegister:active, .switchToLogin:active {
+                opacity: 0.7;
+            }
+    
+    /* Error 404 */
+        /* Back Home */
+            .error404Background {
+                position: absolute;
+                width: 100vw;
+                height: 100vh;
+                background-image: url("../img/backgroundError404.png");
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+            .error404Blur {
+                filter: blur(1.25px);
+                transition: filter 0.3s;
+            }
+            .error404BtnIoriContainer {
+                position: absolute;
+                width: 100vw;
+                height: 100vh;
+            }
+            .error404BtnIori {
+                position: absolute;
+                bottom: 0;
+                display: block;
+                margin-left: 20%;
+                height: 95%;
+                cursor: pointer;
+            }
+
+    /* Contacts */
+        /* Suggestion Form */
+            .contactsFormTitle {
+                margin-top: 0;
+                text-align: center;
+                font-family: AnonymousPro-Bold, sans-serif;
+            }
+            .labelTitle {
+                color: #0c0c0c;
+                font-family: SourceSerifPro-Semibold, sans-serif;
+                margin-top: 0;
+            }
+            .labelInput, .contactsForm {
+                border: 1px solid #D9D9D9;
+                border-radius: 8px;
+            }
+            .labelInput {
+                color: #0c0c0c;
+                font-family: Roboto-Regular, sans-serif;
+            }
+            .labelInput:focus {
+                border: none;
+                outline: 1px solid #E2762E;
+            }
+            .contactsMessageTextarea {
+                resize: vertical;
+            }
+            .btnSend {
+                background-color: #E2762E;
+                color: #f1f1f1;
+                border: none;
+                border-radius: 12px;
+                cursor: pointer;
+                font-family: Roboto-Medium, sans-serif;
+            }
+            .btnSend:hover {
+                opacity: 0.85;
+            }
+            .btnSend:active {
+                opacity: 0.7;
+            }
