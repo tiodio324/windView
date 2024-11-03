@@ -1,7 +1,7 @@
         <footer>
             <div class="footerContainer">
                 <div class="footerContactsContainer">
-                    <p class="footerGeneralTitle">Contuct Us</p>
+                    <p class="footerGeneralTitle">Contucts</p>
                     <div class="footerContactInfoContainer">
                         <p>+7 (812) 000-00-00</p>
                         <div class="footerContactInfoScheduleContainer">
