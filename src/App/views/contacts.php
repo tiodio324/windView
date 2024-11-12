@@ -3,11 +3,11 @@
 <main>
     <div class="contactsBox">
         <div class="contactsContainer">
-            <p class="contactsFormTitle">Here you can leave your suggestion</p>
+            <p class="contactsFormTitle lng-contacts1">Here you can leave your suggestion</p>
             <form class="contactsForm" method="POST">
                 <?php include $this->resolve("partials/_csrf.php") ?>
                 <label class="contactsNameContainer">
-                    <p class="contactsName labelTitle">Name</p>
+                    <p class="contactsName labelTitle lng-contacts2">Name</p>
                     <input value="<?php echo e($oldFormData['name'] ?? ''); ?>" class="contactsNameInput labelInput" name="name" type="text" autofocus placeholder="Nikita"/>
                     <?php if (array_key_exists('name', $errors)) : ?>
                         <div class="errorValueContainer">
@@ -18,7 +18,7 @@
                     <?php endif; ?>
                 </label>
                 <label class="contactsSurnameContainer">
-                    <p class="contactsSurname labelTitle">Surname</p>
+                    <p class="contactsSurname labelTitle lng-contacts3">Surname</p>
                     <input value="<?php echo e($oldFormData['surname'] ?? ''); ?>" class="contactsSurnameInput labelInput" name="surname" type="text" placeholder="Smirnov"/>
                     <?php if (array_key_exists('surname', $errors)) : ?>
                         <div class="errorValueContainer">
@@ -29,7 +29,7 @@
                     <?php endif; ?>
                 </label>
                 <label class="contactsEmailContainer">
-                    <p class="contactsEmail labelTitle">Email</p>
+                    <p class="contactsEmail labelTitle lng-contacts4">Email</p>
                     <input value="<?php echo e($oldFormData['email'] ?? ''); ?>" class="contactsEmailInput labelInput" name="email" type="email" placeholder="Example@gmail.com"/>
                     <?php if (array_key_exists('email', $errors)) : ?>
                         <div class="errorValueContainer">
@@ -40,7 +40,7 @@
                     <?php endif; ?>
                 </label>
                 <label class="contactsMessageContainer">
-                    <p class="contactsMessage labelTitle">Message</p>
+                    <p class="contactsMessage labelTitle lng-contacts5">Message</p>
                     <textarea rows="4" cols="23" wrap="hard" class="contactsMessageTextarea labelInput" name="message" placeholder="Dear windView..."><?php echo e($oldFormData['message'] ?? ''); ?></textarea>
                     <?php if (array_key_exists('message', $errors)) : ?>
                         <div class="errorValueContainer">
@@ -50,7 +50,7 @@
                         </div>
                     <?php endif; ?>
                 </label>
-                <button class="btnSend" type="submit">Send</button>
+                <button class="btnSend lng-contacts6" type="submit">Send</button>
             </form>
         </div>
     </div>

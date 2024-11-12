@@ -23,7 +23,7 @@
 
 /* Header */
     .headerContainer {
-        /* background-color: #fafafa; Because logo_background #fff*/
+        /* background-color: #fafafa; Because logo_background #fff */
         box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.25);
     }
     .navbar li {
@@ -34,6 +34,16 @@
         text-decoration: none;
         color: #0c0c0c;
         font-family: SourceSerifPro-Semibold, sans-serif;
+    }
+    .changeLangContainer {
+        border-color: #E2762E;
+    }
+    .changeLangInput {
+        font-family: SourceSerifPro-Bold, sans-serif;
+    }
+    .changeLangContainer:focus {
+        border: none;
+        outline: 1px solid #E2762E;
     }
     .btnSignTitle {
         text-decoration: none;
@@ -248,7 +258,7 @@
     /* Donate */
         /* Card Info */
             .donateBox {
-                background-image: url("../img/backgroundDonate.png");
+                background-image: url("../img/backgroundDonate.gif");
                 background-position: center;
                 background-repeat: no-repeat;
                 background-size: cover;

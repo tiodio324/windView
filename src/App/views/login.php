@@ -6,7 +6,7 @@
             <form class="loginForm" method="POST">
                 <?php include $this->resolve("partials/_csrf.php") ?>
                 <label class="loginNameContainer">
-                    <p class="loginName">Name</p>
+                    <p class="loginName lng-login1">Name</p>
                     <input value="<?php echo e($oldFormData['name'] ?? ''); ?>" class="loginNameInput" name="name" type="text" autofocus placeholder="Nikita"/>
                     <?php if (array_key_exists('name', $errors)) : ?>
                         <div class="errorValueContainer">
@@ -17,7 +17,7 @@
                     <?php endif; ?>
                 </label>
                 <label class="loginPasswordContainer">
-                    <p class="loginPassword">Password</p>
+                    <p class="loginPassword lng-login2">Password</p>
                     <input class="loginPasswordInput" name="password" type="password"/>
                     <?php if (array_key_exists('password', $errors)) : ?>
                         <div class="errorValueContainer">
@@ -27,8 +27,8 @@
                         </div>
                     <?php endif; ?>
                 </label>
-                <button class="btnLogin" type="submit">Log in</button>
-                <a href="/register" class="switchToRegister">Register</a>
+                <button class="btnLogin lng-login3" type="submit">Log in</button>
+                <a href="/register" class="switchToRegister lng-login4">Register</a>
             </form>
         </div>
     </div>

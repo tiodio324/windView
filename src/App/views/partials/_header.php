@@ -22,26 +22,30 @@
                         </div>
                     </li>
                     <li>
-                        <a href="/about">About</a>
+                        <a href="/about" class="lng-navbar1">About</a>
                     </li>
                     <li>
-                        <a href="/products">Our Products</a>
+                        <a href="/products" class="lng-navbar2">Our Products</a>
                     </li>
                     <li>
-                        <a href="/donate">Donate</a>
+                        <a href="/donate" class="lng-navbar3">Donate</a>
                     </li>
                     <li>
-                        <a href="/contacts">Contact Us</a>
+                        <a href="/contacts" class="lng-navbar4">Contact Us</a>
                     </li>
                 </nav>
+                <select class="changeLangContainer">
+                    <option class="changeLangInput" value="ru">RU</option>
+                    <option class="changeLangInput" value="en">EN</option>
+                </select>
                 <div class="emptyDiv"></div>
                 <?php if (isset($_SESSION['user'])) : ?>
                     <div class="btnSign">
-                        <a class="btnSignTitle" href="/logout">Log Out</a>
+                        <a class="btnSignTitle lng-navbar5" href="/logout">Log Out</a>
                     </div>
                 <?php else : ?>
                     <div class="btnSign">
-                        <a class="btnSignTitle" href="/login">Sign In</a>
+                        <a class="btnSignTitle lng-navbar6" href="/login">Sign In</a>
                     </div>
                 <?php endif; ?>
                 <div class="btnOpenMenuContainer">
