@@ -72,8 +72,8 @@ const langArr = {
         "en": "Get Tired Less and Learn More!",
     },
     "home2": {
-        "ru": "Откройте Новое Измерение Чтения",
-        "en": "Unlock a New Dimension<br>of Reading",
+        "ru": "Погрузитесь в Мир Инноваций<br>с Нашими Приложениями",
+        "en": "Dive Into a World of Innovation<br>With Our Applications",
     },
     "home3": {
         "ru": "Clip Reader — уникальный формат для эффективного чтения электронных книг.",
