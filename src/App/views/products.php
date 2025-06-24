@@ -20,7 +20,7 @@
                     <p class="product1Description lng-products2">Clip Reader — is a unique format of reading books by words for efficient reading of e-books (without image support, which can be critical). Now, app supports only .fb2 and .txt files.</p>
                     <p class="product1PostScriptum lng-products3"><b>P.S.</b> If you read and your brain can't grasp the way of reading. there is no ease, calmness. In case the problem is really in the inability of the brain to understand how to read in this way, I recommend first studying speed reading techniques. For this, I suggest you read the book yourself: &quot;Speed ​​Reading. for remembering more, reading 8 times faster.&quot; Author: Peter Kump. I hope, it will help learn more successful.</p>
                     <div class="productDownloadContainer">
-                        <button class="btnProductDownload lng-products4" onclick="window.location.href='apk/clipReader/clipreader-1.0.apk';">Download <img class='productAppLogo' src='assets/img/products/clipReaderLogo.png' alt='App Logo'/></button>
+                        <button class="btnProductDownload lng-products4" onclick="window.location.href='https://www.rustore.ru/catalog/app/com.clipreader';">Download <img class='productAppLogo' src='assets/img/products/clipReaderLogo.png' alt='App Logo'/></button>
                         <a href="https://github.com/tiodio324/ClipReader" class="productDownloadGitHub lng-products5">Download from GitHub</a>
                     </div>
                 </div>
