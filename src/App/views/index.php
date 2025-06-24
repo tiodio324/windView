@@ -9,7 +9,7 @@
                     <p class="latestProductSlogan lng-home2">Unlock a New Dimension<br>of Reading</p>
                     <p class="latestProductText lng-home3">Clip Reader is a unique format for efficient reading<br>of e-books.</p>
                     <div class="latestProductBtns">
-                        <button class="latestProductBtnDonwload lng-home4" onclick="window.location.href='apk/clipReader/clipreader-1.0.apk';">Download</button>
+                        <button class="latestProductBtnDonwload lng-home4" onclick="window.location.href='https://www.rustore.ru/catalog/app/com.clipreader';">Download</button>
                         <button class="latestProductBtnProducts lng-home5" onclick="window.location.href='/products';">Products</button>
                     </div>
                 </div>
